@@ -1,0 +1,5 @@
+anf=float(input('Digite o número de anos que ele fuma:'))
+ncf=float(input('Digite o número de cigarros fumados por dia:'))
+pdc=float(input('Digite o preço de uma carteira:'))
+tg=(anf*365)*(ncf)*(pdc/20)
+print(tg)
